@@ -106,7 +106,7 @@ Don't forget to make it executable by running ``chmod 755 /etc/udev/tpkbdctl_run
 
     #!/bin/sh
     
-    /usr/bin/tpkbdctl -d ${DEVPATH} -s 192 # your settings here
+    /usr/bin/tpkbdctl  -s 192 # your settings here
 
 See also
 ========
